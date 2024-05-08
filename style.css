@@ -1,0 +1,176 @@
+a{
+    color: black;
+}
+.paragraphe {
+    color: #a5b4fC;
+}
+h1 {
+    font-size: 3em;
+    color: #a5b4fC;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+}
+li {
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+}
+body {
+    background-color: #1f2039;
+}
+a {
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+}
+p,li,h2 {
+    color: #F9F8FF;
+}
+nav ,
+footer {
+    color: #242424;
+    background-color: white;
+}
+.cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    border-radius: 50px;
+    padding: 20px 30px;
+  }
+.p-cpt{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav :hover,
+footer :hover{
+     opacity: 0.5;
+}
+
+.cta:hover{
+    background: linear-gradient(to bottom, #696484, #8788BA);
+    text-decoration: none;
+}
+
+.lien-icone {
+    margin-left: 30px;
+  }
+
+.lien-icone:hover {
+    opacity: 0.5;
+  }
+
+section{
+    padding: 80px;
+}
+
+.a-propos-main {
+    width: 50%;
+    margin: auto;
+  }
+
+  .p-cpt ul,
+  .p-cpt h2 {
+    margin-top: 30px;
+  }
+
+*{
+    margin: 0;
+}
+
+header,
+footer {
+  background-color: white;
+  padding: 20px 50px;
+}
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-intro {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+}
+
+
+.portfolio-section-photos {
+    background-color: white;
+  }
+  
+  .portfolio-section-photos h2 {
+    color: #242424;
+    margin-bottom: 80px;
+  }
+  
+  .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+  
+  .grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+  }
+  
+  .grid-paysages img,
+  .grid-portraits img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  footer .copyright {
+    /* display: inline-block; */
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+  }
+  section h2{
+    margin: top 30px; ;
+  }
+
+  nav a.active {
+    /* Styles pour l'élément de navigation actif */
+    font-weight: bold;
+    color: red;
+  }
